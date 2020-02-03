@@ -45,3 +45,6 @@ def abc(request):
 
 def xyz(request):
     return render(request, "xyz.html")
+
+def ddd(request):
+    return render(request,'login.html')
