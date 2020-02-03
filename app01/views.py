@@ -48,3 +48,6 @@ def xyz(request):
 
 def ddd(request):
     return render(request,'login.html')
+
+def aaa(request):
+    return render(request,'login.html')
